@@ -1,0 +1,18 @@
+#header1{
+  font-family: serif;
+  color: #0ff459;
+  background-color: black;
+  font-size: 50px;
+}
+#header2{
+  font-family: sans-serif;
+  color: orange;
+  background-color: black;
+  font-size: 30px;
+}
+#header3{
+  font-family: monospace;
+  color: #00f;
+  background-color: yellow;
+  font-size: 20px;
+}
