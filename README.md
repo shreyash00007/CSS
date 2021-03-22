@@ -5,3 +5,5 @@ This is for revision of CSS
 >[Basic](https://github.com/shreyash00007/CSS/blob/main/color%2Cbackground%26font.html)
 
 >[Fonts](https://github.com/shreyash00007/CSS/blob/main/fonts.css)
+
+>[Link](https://github.com/shreyash00007/CSS/blob/main/link.css)
