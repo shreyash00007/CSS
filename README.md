@@ -14,3 +14,4 @@
 
 >[RGB](https://github.com/shreyash00007/CSS/blob/main/rgb.css)
 
+>[Css_Properties](https://github.com/shreyash00007/CSS/blob/main/Css%20properties.png)
