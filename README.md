@@ -19,4 +19,4 @@
 
 >[Text & Color](https://github.com/shreyash00007/CSS/blob/main/text%26color.html)
 
->[Color_Text_Format]()
+>[Color_Text_Format](https://github.com/shreyash00007/CSS/blob/main/Colors_and_texts_formats.html)
