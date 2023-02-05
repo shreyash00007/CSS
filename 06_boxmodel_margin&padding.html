@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOX Model / Margin and padding</title>
+  </head>
+  <style>
+    /* CSS reset */
+    * {
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+    }
+    .box {
+      background: #f4f4f4;
+      border: 2px #777 solid;
+      width: 500px;
+
+      /* to remeber margin and padding  simple rule " march out and pad in" */
+      /* Means margin outside and padding inside */
+
+      /* Padding on all sides */
+      padding: 20px;
+
+      /* padding per side */
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+
+      /* padding shorthand = top right bottom left */
+      padding: 10px 20px 10px 20px;
+
+      /* padding more shorthand = top/bottom left/right */
+      padding: 10px 20px;
+
+      /* Margin on all sides */
+      margin: 20px;
+
+      /*margin per side */
+      margin-top: 10px;
+      margin-right: 20px;
+      margin-bottom: 10px;
+      margin-left: 20px;
+
+      /*margin shorthand = top right bottom left */
+      margin: 10px 20px 10px 20px;
+
+      /*margin more shorthand = top/bottom left/right */
+      margin: 10px 20px;
+    }
+    .box h2 {
+      padding-bottom: 10px;
+    }
+  </style>
+  <body>
+    <div class="box">
+      <h2>box</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et
+        aperiam exercitationem sint, ullam quaerat perspiciatis debitis illum
+        nesciunt laboriosam!\
+      </p>
+    </div>
+    <div class="box">
+      <h2>box</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe et
+        aperiam exercitationem sint, ullam quaerat perspiciatis debitis illum
+        nesciunt laboriosam!\
+      </p>
+    </div>
+  </body>
+</html>

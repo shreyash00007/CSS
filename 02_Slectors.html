@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secletors in Css</title>
+    <style>
+      /* Element Secletors */
+      body {
+        background-color: #333;
+      }
+      /* . is for class */
+      .primary-color {
+        color: green;
+      }
+      /*  # is for id's */
+      #welcome {
+        background-color: #f4f4f4;
+      }
+      /* Multiper Secletors */
+      #welcome,
+      #about {
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+        padding: 10px;
+      }
+      /* Nested secletors */
+      #welcome p {
+        font-size: 20px;
+      }
+      #about {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="welcome">
+      <h2 class="primary-color">Welcome</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos tempore
+        beatae facere assumenda quidem doloremque sapiente fugiat accusantium
+        ducimus nisi!
+      </p>
+    </div>
+    <div id="about">
+      <h2>About</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+        corrupti vel quasi et saepe nobis minima perspiciatis libero, alias
+        unde!
+      </p>
+    </div>
+  </body>
+</html>

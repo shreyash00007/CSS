@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vh and Vw elements</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      header {
+        background: #333 url("https://source.unsplash.com/daily") no-repeat
+          center center/cover;
+        color: #fff;
+        height: 100vh;
+        text-align: center;
+        padding: 2rem;
+        padding-top: 15rem;
+      }
+      header h1 {
+        font-size: 3rem;
+      }
+      header p {
+        margin: 1rem 0;
+      }
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        background: #333;
+        color: #fff;
+        padding: 0.7rem 2rem;
+        border-radius: 3rem;
+      }
+      section {
+        padding: 2rem;
+      }
+      @media (max-height: 450px) {
+        header {
+          padding: 5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to our website</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repellendus
+        pariatur, voluptas inventore asperiores eaque dolor sed excepturi
+        commodi voluptates?
+      </p>
+      <a href="#" class="btn">Find more</a>
+    </header>
+    <section class="about">
+      <h3>About us</h3>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque iste
+      velit laboriosam maiores ut reprehenderit, et omnis, quo esse repellat
+      dicta cumque dolore quasi corrupti alias odio voluptatem quibusdam magnam
+      est laudantium eum culpa dolorem voluptates ullam! Totam maiores possimus,
+      alias ipsa quia aliquam accusantium fuga et cumque quaerat ad.
+    </section>
+  </body>
+</html>
